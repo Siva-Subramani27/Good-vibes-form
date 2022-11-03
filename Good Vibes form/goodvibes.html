@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Pen</title>
+    <link rel="stylesheet" href="../Good Vibes form/goodvibes.css">
+</head>
+<body>
+    <header id="header">
+        <div id="anchor">  
+            <a href="#">Good Vibes Form</a>
+            <br>
+            <a href="#">Laurence</a>
+            <button id="follow"><a href="#">Follow</a></button>
+        </div>
+        <div id="btn">
+            <button id="love" class="btn"><a href="#" class="bt">♡</a></button>
+            <button class="btn" id="view"><a href="#" class="bt">View in Editor</a></button>
+            <button class="btn" id="sign"><a href="#" id="up" >Sign Up</a></button>
+            <button class="btn"><a href="#" class="bt">Log In</a></button>
+        </div>
+    </header>
+    <main id="maincontent">
+        <h1>Good Vibes Form</h1>
+        <div id="content">
+            <p>Tell us something positive that happened to you today.</p>
+                <form action="#" method="post">
+                    <div class="sta">
+                        <div class="label" id="name">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="name" id="name" placeholder="Enter your name" class="inp">
+                        </div>
+                    </div>
+                    <div class="sta">
+                        <div class="label">
+                            <label for="mail">Email</label>
+                        </div> 
+                        <div class="input">
+                            <input type="email" name="mail" id="mail" placeholder="Enter your email address" class="inp">
+                        </div>
+                    </div>
+                    <div class="sta">
+                        <div class="label">
+                            <label for="rating">On a scale of 1-10, how good was it?</label>
+                        </div>
+                        <div class="input">
+                            <input type="number" name="rating" id="rating" placeholder="Enter a number between 1 and 10" class="inp">
+                        </div>
+                    </div>
+                    <div class="sta">
+                            <div class="label">
+                                <label for="place">
+                                    Where did it happen?
+                                </label>
+                            </div>
+                            <div class="input">
+                                <select name="place" id="place">
+                                    <option value="home">At Home</option>
+                                    <option value="commute">On my commute</Option>
+                                    <option value="work">At work</OPtion>
+                                    <option value="street">On the street</OPtion>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                    <div class="sta">
+                            <div class="label">
+                                    <label for="day">At what time of day did it happen?</label>
+                                </div>
+                                <div class="input" id="radio">
+                                    <ul style=list-style:none>
+                                        <li><input type="radio" name="day" id="day">Morning</li>
+                                        <li><input type="radio" name="day" id="day">Afternoon</li>
+                                        <li><input type="radio" name="day" id="day">Evening</li>
+                                    </ul>
+                                </div>
+                    </div>
+                    <div class="sta">
+                        <div class="label">
+                            <label for="feelings">What emotions did you experience? <br>
+                                (Select all that apply)</label>
+                        </div>
+                        <div class="input" id="checkbox">
+                            <ul style=list-style:none>
+                                <li><input type="checkbox" name="feelings" id="feelings">Excited</li>
+                                <li><input type="checkbox" name="feelings" id="feelings">Humbled</li>
+                                <li><input type="checkbox" name="feelings" id="feelings">Elated</li>
+                                <li><input type="checkbox" name="feelings" id="feelings">Loved</li>
+                                <li><input type="checkbox" name="feelings" id="feelings">Enthusiastic</li>
+                            </ul>    
+                        </div>
+                    </div>
+                    <div class="sta">
+                        <div class="label">
+                            <label for="feedback">Please describe your positive experience.</label>
+                        </div>
+                        <div class="input">
+                            <textarea name="feedback" id="feedback" cols="30" rows="3" placeholder="Enter your experience here..."></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit" id="sub">Submit</button>
+                    </div>
+                </form>
+        </div>
+
+    </main>
+</body>
+</html>
